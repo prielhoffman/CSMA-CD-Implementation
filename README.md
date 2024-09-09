@@ -13,7 +13,7 @@ The implementation is based on `Ethernet.h` file and includes the following func
 
 ## Functions
 
-The following functions are defined in the provided `EthernetLab5.h` file and are used in the implementation:
+The following functions are defined in the provided `Ethernet.h` file and are used in the implementation:
 
 - **`void setAddress(int number, int pair)`**
   - **Description**: Configures the initial settings.
@@ -75,11 +75,3 @@ Exponential Backoff involves waiting for a random number of time slots:
 - For subsequent collisions, wait for a random number of slots from `{0, 31}`, `{0, 63}`, up to `{0, 1023}` (with a cap at 7 rounds).
 
 The time to wait is calculated as `TIME_SLOT * U`.
-
-## Usage
-
-1. Download the `EthernetLab5.h` file from Moodle and place it in the same directory as your `.ino` file.
-2. Import the header file in your `.ino` file:
-   ```cpp
-   #import "EthernetLab5.h"
-3. Implement the CSMA/CD protocols in your code using the provided functions.

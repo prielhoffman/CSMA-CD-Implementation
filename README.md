@@ -4,6 +4,13 @@
 
 This repository contains an implementation of CSMA/CD (Carrier Sense Multiple Access with Collision Detection) protocols, including both 1-persistent and non-persistent modes with Stop and Wait. The project demonstrates these protocols' behavior in a simulated communication environment using Arduino.
 
+The implementation is based on `Ethernet.h` file and includes the following functionalities:
+
+- **Setting addresses and modes**
+- **Checking line status**
+- **Starting and ending package transmission**
+- **Reading incoming packages**
+
 ## Functions
 
 The following functions are defined in the provided `EthernetLab5.h` file and are used in the implementation:

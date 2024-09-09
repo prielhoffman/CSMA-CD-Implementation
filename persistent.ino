@@ -1,4 +1,4 @@
-#include "EthernetLab5.h"
+#include "Ethernet.h"
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
